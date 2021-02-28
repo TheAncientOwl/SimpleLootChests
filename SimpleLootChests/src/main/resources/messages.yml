@@ -1,0 +1,5 @@
+prefix: "&8[&2S&6L&eC&8] "
+cooldown: "&8[&6Loot&8] &eCooldown &2{time} &aseconds&8!"
+noPermission: "&cYou don't have the permission to do this&8!"
+notRegisteredChest: "&cThis is not a registered chest type&8!"
+wandReceived: "&aWhoosh!"

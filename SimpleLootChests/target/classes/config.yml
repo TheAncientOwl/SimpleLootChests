@@ -1,0 +1,55 @@
+# ============================================= #
+#     SimpleLootChests developed by Bufnita     #
+# ============================================= #
+# >> permission: slc.admin
+
+# ============================================== #
+#     ChestTypes that will be used on server     #
+# ============================================== #
+registered:
+  - "tier1"
+  - "tier2"
+
+# ====================================== #
+#     ChestTypes configuration guide     #
+# ====================================== #
+#chestTypes:
+#  identifier:      -> chest's name. (this identifier will appear at registeredChests and chestLocations)
+#    displayName:   -> the name that will be displayed to player as chest's name.
+#    size:          -> number of lines in chest's inventory. (must be a multiple of 9) if is not a multiple of 9, a default size of 27 will be used
+#    cooldown:      -> time that a player must wait before reopen the chest again. (in seconds)
+#    items:         -> content of chest's inventory.
+#      item1:       -> any identifier. must be unique
+#        item:      -> supported bukkit item type
+#        amount:    -> amount of items of this type
+#        chance:    -> integer from 0 to 100
+types:
+  tier1:
+    displayName: "&8Tier &lI &8loot"
+    cooldown: 360
+    size: 9
+    items:
+      item1:
+        item: "EMERALD_ORE"
+        amount: 2
+        chance: 100
+      item2:
+        item: "ENCHANTED_GOLDEN_APPLE"
+        amount: 1
+        chance: 100
+  tier2:
+    displayName: "&8Tier &lII &8loot"
+    cooldown: 360
+    size: 9
+    items:
+      item1:
+        item: "GOLDEN_HELMET"
+        amount: 1
+        chance: 100
+
+# ============================ #
+#     ChestTypes locations     #
+# ============================ #
+locations:
+  tier1: []
+  tier2: []

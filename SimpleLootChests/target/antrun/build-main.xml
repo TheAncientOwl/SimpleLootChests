@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="c:\Users\valer\Desktop\MyStuff\Plugin Dev\SimpleLootChests\target/SimpleLootChests-2.0.jar" todir="C:\Users\valer\Desktop\cs_mo 1.13.2\plugins"/>
+</target>
+</project>
